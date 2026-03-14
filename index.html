@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- ── FAVICON ──────────────────────────────────────────────────── -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23D4561A'/><text y='.9em' font-size='72' font-family='Arial Black,sans-serif' font-weight='900' fill='white' x='50%' dominant-baseline='auto' text-anchor='middle' dy='0.15em' y='55'>M</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23D4561A'/><text y='.9em' font-size='72' font-family='Arial Black,sans-serif' font-weight='900' fill='white' x='50%' dominant-baseline='auto' text-anchor='middle' dy='0.15em' y='55'>M</text></svg>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#D4561A">
 
 <!-- ── PRIMARY SEO ───────────────────────────────────────────────── -->
 <title>MIDDX Excavation | Excavation Contractor South Shore Montreal – Rive-Sud, Montérègie</title>
@@ -10,19 +14,24 @@
 <meta name="keywords" content="excavation contractor South Shore Montreal, excavation Rive-Sud, terrassement Rive-Sud, excavation Longueuil, excavation Brossard, excavation La Prairie, excavation Saint-Bruno, excavation Montérègie, foundation excavation Quebec, site preparation contractor Montreal, excavation Candiac, excavation Chateauguay, trench digging South Shore, land clearing Montérègie">
 <meta name="author" content="MIDDX Excavation">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://middxexcavation.com/">
+<link rel="canonical" href="https://milref001.github.io/middx/">
 
 <!-- ── OPEN GRAPH ────────────────────────────────────────────────── -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://middxexcavation.com/">
+<meta property="og:url" content="https://milref001.github.io/middx/">
 <meta property="og:title" content="MIDDX Excavation – South Shore Montreal's Excavation Contractor">
 <meta property="og:description" content="General contractors and homeowners on the South Shore of Montreal trust MIDDX for fast, precise excavation. Owner-operated. Always on time. Call 438-978-7778.">
 <meta property="og:locale" content="en_CA">
+<meta property="og:image" content="https://milref001.github.io/middx/middx-hero.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MIDDX Excavation – South Shore Montreal excavation contractor">
 
 <!-- ── TWITTER CARD ──────────────────────────────────────────────── -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MIDDX Excavation – South Shore Montreal">
 <meta name="twitter:description" content="Excavation, grading, foundation prep, and trenching on the Rive-Sud. Owner-operated. Fast quotes. 438-978-7778.">
+<meta name="twitter:image" content="https://milref001.github.io/middx/middx-hero.png">
 
 <!-- ── SCHEMA: LOCAL BUSINESS ───────────────────────────────────── -->
 <script type="application/ld+json">
@@ -33,7 +42,7 @@
   "description": "Owner-operated excavation contractor serving the South Shore of Montreal including Longueuil, Brossard, La Prairie, Saint-Bruno-de-Montarville, Candiac, Chateauguay and all of Montérègie.",
   "telephone": "+1-438-978-7778",
   "email": "middx.excavation@gmail.com",
-  "url": "https://middxexcavation.com",
+  "url": "https://milref001.github.io/middx",
   "address": {
     "@type": "PostalAddress",
     "addressRegion": "QC",
@@ -777,6 +786,66 @@ footer {
   .contact-cards { grid-template-columns: 1fr; }
   footer { padding: 24px; flex-direction: column; gap: 14px; text-align: center; }
 }
+
+@media (max-width: 480px) {
+  /* NAV */
+  nav { padding: 14px 18px; }
+  .nav-cta { padding: 9px 16px; font-size: 11px; }
+
+  /* HERO */
+  h1.hero-title { font-size: clamp(40px, 11vw, 60px); letter-spacing: -2px; }
+  .hero-content { padding: 0 18px; }
+  .hero-sub { font-size: 15px; }
+  .hero-ctas { flex-direction: column; gap: 12px; align-items: stretch; }
+  .hero-ctas .btn-orange,
+  .hero-ctas .btn-ghost { text-align: center; padding: 16px 20px; font-size: 14px; }
+
+  /* STATS */
+  .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 1px; }
+  .stat { padding: 20px 12px; }
+  .stat-num { font-size: 36px; }
+  .stat-lbl { font-size: 10px; }
+
+  /* ICP BANNER */
+  .icp-banner { flex-direction: column; gap: 12px; padding: 18px; }
+  .icp-tag { font-size: 11px; padding: 6px 12px; }
+
+  /* SECTIONS */
+  #services { padding: 56px 18px; }
+  #icp { padding: 56px 18px; }
+  #about { padding: 56px 18px; }
+  #areas { padding: 48px 18px; }
+  #faq { padding: 56px 18px; }
+  #contact { padding: 56px 18px; }
+
+  /* SECTION HEADINGS */
+  .section-heading { font-size: clamp(28px, 8vw, 40px); }
+
+  /* SERVICE CARDS */
+  .service-card { padding: 24px 20px; }
+
+  /* ICP CARDS */
+  .icp-card { padding: 24px 20px; }
+
+  /* AREA PILLS */
+  .area-pills { gap: 8px; }
+  .area-pill { font-size: 11px; padding: 6px 14px; }
+
+  /* ABOUT */
+  .about-stat { font-size: 13px; }
+
+  /* FAQ */
+  .faq-q { font-size: 15px; padding: 18px 0; }
+
+  /* CONTACT */
+  .contact-cards { grid-template-columns: 1fr; gap: 12px; }
+  .cta-card { padding: 20px; }
+  .btn-orange { padding: 16px 24px; font-size: 14px; width: 100%; text-align: center; }
+  .btn-ghost { padding: 16px 24px; font-size: 14px; width: 100%; text-align: center; }
+
+  /* FOOTER */
+  footer { padding: 20px 18px; font-size: 12px; }
+}
 </style>
 </head>
 <body>
@@ -1034,16 +1103,17 @@ footer {
       <div class="cta-card-val" data-en="South Shore Montreal, QC" data-fr="Rive-Sud Montréal, QC">South Shore Montreal, QC</div>
     </div>
   </div>
+  <!-- EZ-Estimates widget — coming soon
   <div style="max-width:720px;margin:0 auto 40px;">
-    <!-- EZ-Estimates AI Lead Bot -->
     <script
       src="https://app.ez-estimates.com/widget-loader.js"
-      data-org-id="1753898a-a71a-4e7c-9e0d-0fc21c50a978"
+      data-org-id="REPLACE_WITH_ORG_ID"
       data-color="#D4561A"
       data-mode="inline"
       async>
     </script>
   </div>
+  -->
   <a href="tel:4389787778" class="btn-orange" data-en="Call Adam Now — Free Quote" data-fr="Appeler Adam — Soumission Gratuite">Call Adam Now — Free Quote</a>
 </section>
 
